@@ -1,5 +1,5 @@
 {
-	"name": "nodecg-bundle-template",
+	"name": "nodecg-obs-websocket",
 	"version": "1.0.0",
 	"packageManager": "pnpm@12.4.0",
 	"scripts": {
@@ -63,6 +63,7 @@
 		"@mdi/react": "^1.6.1",
 		"@nodecg/react-hooks": "^1.0.3",
 		"nodecg": "^2.8.0",
+		"obs-websocket-js": "^5.0.8",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"tslib": "^2.8.1"

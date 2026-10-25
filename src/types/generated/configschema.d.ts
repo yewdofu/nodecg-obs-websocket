@@ -7,5 +7,10 @@
  */
 
 export interface Configschema {
-	[k: string]: unknown;
+	obs: {
+		enabled: boolean;
+		url: string;
+		password?: string;
+		reconnectInterval: number;
+	};
 }

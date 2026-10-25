@@ -1,5 +1,32 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"type": "object",
-	"properties": {}
+	"additionalProperties": false,
+	"properties": {
+		"obs": {
+			"type": "object",
+			"default": {},
+			"additionalProperties": false,
+			"properties": {
+				"enabled": {
+					"type": "boolean",
+					"default": true
+				},
+				"url": {
+					"type": "string",
+					"default": "ws://127.0.0.1:4455"
+				},
+				"password": {
+					"type": "string"
+				},
+				"reconnectInterval": {
+					"type": "integer",
+					"minimum": 1000,
+					"default": 5000
+				}
+			},
+			"required": ["enabled", "url", "reconnectInterval"]
+		}
+	},
+	"required": ["obs"]
 }

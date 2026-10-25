@@ -1,0 +1,22 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"status": {
+			"type": "string",
+			"enum": ["disconnected", "connecting", "connected"],
+			"default": "disconnected"
+		},
+		"obsVersion": {
+			"type": "string"
+		},
+		"obsWebSocketVersion": {
+			"type": "string"
+		},
+		"error": {
+			"type": "string"
+		}
+	},
+	"required": ["status"]
+}
