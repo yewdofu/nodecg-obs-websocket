@@ -32,6 +32,14 @@
 				"file": "Example.html",
 				"workspace": "Example",
 				"headerColor": "#525F78"
+			},
+			{
+				"name": "obs-audio",
+				"title": "OBS 音声",
+				"width": 3,
+				"file": "ObsAudio.html",
+				"workspace": "OBS",
+				"headerColor": "#525F78"
 			}
 		],
 		"graphics": [
